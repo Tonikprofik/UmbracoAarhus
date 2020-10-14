@@ -13,6 +13,16 @@ Don't forget to build!
 tnk@tnk.dk
 tnkrootroot
 
+JaneWilfred@tnk.dk
+STo|INDUAi
+
+TimHanson@tnk.dk
+UCqc%]?1w5
+
+Member 
+Active naru@to.dk narutouzumaki
+        kaka@shi.dk kakashihatake
+Prospect    kurama kuramaninetails
 When upgrading your website using NuGet you should answer "No" to the questions to overwrite the Web.config
 file (and config files in the config folder).
 

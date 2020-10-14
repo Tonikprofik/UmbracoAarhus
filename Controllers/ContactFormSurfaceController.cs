@@ -24,13 +24,7 @@ namespace UmbracoAarhus.Controllers
         {
             if (!ModelState.IsValid)
             {
-                //saving data to umbraco backend Les4 Ex2 - 2.
-                IContent comment = Services.ContentService.Create(model.Subject, CurrentPage.Id, "comment");
-                comment.SetValue("username", model.Name);
-                comment.SetValue("email", model.Email);
-                comment.SetValue("subject", model.Subject);
-                comment.SetValue("message", model.Message);
-                Services.ContentService.Save(comment);
+                
 
                 return CurrentUmbracoPage();
             }
@@ -43,6 +37,14 @@ namespace UmbracoAarhus.Controllers
             //message.Body = model.Message;
             //SmtpClient smtp = new SmtpClient();
             //smtp.Send(message);
+            
+            //TODO: fix saving data to umbraco backend, comment page Lesson4 Ex3 -
+            IContent comment = Services.ContentService.Create(model.Subject, CurrentPage.Id, "comment");
+            comment.SetValue("username", model.Name);
+            comment.SetValue("email", model.Email);
+            comment.SetValue("subject", model.Subject);
+            comment.SetValue("message", model.Message);
+            Services.ContentService.Save(comment);
 
             TempData["success"] = true;
 
