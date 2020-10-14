@@ -5,7 +5,7 @@
 <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
 
 
-@using (Html.BeginForm())
+@using (Html.BeginForm<ContactFormSurfaceController>(""))
 {
     @Html.AntiForgeryToken()
 
