@@ -10,7 +10,7 @@ Y88   88Y 888  888  888 888 d88P 888    888  888 Y88b.    Y88..88P
 ------------------------------------------------------------------
 http://localhost:60637/umbraco
 Don't forget to build!
-tnk@tnk.com
+tnk@tnk.dk
 tnkrootroot
 
 When upgrading your website using NuGet you should answer "No" to the questions to overwrite the Web.config

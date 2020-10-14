@@ -3,3 +3,13 @@
 @{
 	Layout = "master.cshtml";
 }
+
+<h1>
+@Model.Value("title")
+</h1>
+
+<br>
+
+<p>
+@Model.Value("mainContent", fallback: Fallback.ToAncestors)
+</p>
