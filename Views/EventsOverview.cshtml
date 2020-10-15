@@ -1,5 +1,32 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.EventsOverview>
 @using ContentModels = Umbraco.Web.PublishedModels;
 @{
-	Layout = null;
+	Layout = "master.cshtml";
 }
+
+<h1>
+@Model.Value("eventsTitle", fallback: Fallback.ToAncestors)
+</h1>
+
+<br>
+
+<p>
+@Model.Value("eventsBody", fallback: Fallback.ToAncestors)
+</p>
+
+
+@{
+	var selection = Umbraco.Content(Guid.Parse("c73f09a7-8a98-442e-8175-c22713bd4fb4"))
+    .ChildrenOfType("event")
+    .Where(x => x.IsVisible())
+    .OrderByDescending(x => x.CreateDate);
+}
+<ul>
+	@foreach (var item in selection)
+	{
+		<li>
+			<a href="@item.Url">@item.Name</a>
+		</li>
+	}
+</ul>
+
