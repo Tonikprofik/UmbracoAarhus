@@ -17,6 +17,18 @@
 @Model.Value("eventDate", fallback: Fallback.ToAncestors)
 </p>
 
+<p>Located at:</p>
+@{
+    IPublishedContent location = Model.Value<IPublishedContent>("location");
+        if (location!=null)
+        {  <p>
+                @location.Name - 
+                @location.Value("City") 
+                     
+                </p>
+          }
+     }
+
 
 @{
 	var selection = Umbraco.Content(Guid.Parse("c73f09a7-8a98-442e-8175-c22713bd4fb4"))

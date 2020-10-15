@@ -85,6 +85,13 @@ Umbraco.Core.Migrations.Upgrade.V_8_0_0.VariantsMigration, Umbraco.Core, Version
 Umbraco.Core.Migrations.Upgrade.V_8_0_0.ContentVariationMigration, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Core.Migrations.Upgrade.V_8_0_0.DataTypes.PreValueMigratorComposer, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Core.Services.Implement.KeyValueService+InitializeMigration, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco_Tag_Manager.InstallHelper, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco_Tag_Manager.TagManagerComposer, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco_Tag_Manager.TagManagerComponentComposer, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco_Tag_Manager.Controllers.TagManagerApiController, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco_Tag_Manager.Controllers.TagManagerTreeController, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Cogworks.FindAndReplace.Web.Composers.FindAndReplaceComposer, Cogworks.FindAndReplace, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+Cogworks.FindAndReplace.Web.API.FindAndReplaceApiController, Cogworks.FindAndReplace, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.ModelsBuilderDashboard, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.Compose.ModelsBuilderComposer, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.BackOffice.MediaTypeModelValidator, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -295,11 +302,6 @@ Umbraco.Web.Cache.PublicAccessCacheRefresher, Umbraco.Web, Version=8.0.0.0, Cult
 Umbraco.Web.Cache.TemplateCacheRefresher, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Cache.UserCacheRefresher, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 UmbracoAarhus.Controllers.ContactFormSurfaceController, UmbracoAarhus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco_Tag_Manager.InstallHelper, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco_Tag_Manager.TagManagerComposer, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco_Tag_Manager.TagManagerComponentComposer, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco_Tag_Manager.Controllers.TagManagerApiController, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco_Tag_Manager.Controllers.TagManagerTreeController, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 
 Umbraco.Core.Composing.IComposer
 
@@ -310,6 +312,9 @@ Umbraco.Core.Compose.RelateOnCopyComposer, Umbraco.Core, Version=8.0.0.0, Cultur
 Umbraco.Core.Compose.RelateOnTrashComposer, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Core.Runtime.CoreInitialComposer, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Core.Migrations.Upgrade.V_8_0_0.DataTypes.PreValueMigratorComposer, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco_Tag_Manager.TagManagerComposer, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco_Tag_Manager.TagManagerComponentComposer, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Cogworks.FindAndReplace.Web.Composers.FindAndReplaceComposer, Cogworks.FindAndReplace, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.Compose.ModelsBuilderComposer, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.SignalR.PreviewHubComposer, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Runtime.WebInitialComposer, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -328,8 +333,6 @@ Umbraco.Web.Compose.PublicAccessComposer, Umbraco.Web, Version=8.0.0.0, Culture=
 Umbraco.Web.Compose.NestedContentPropertyComposer, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Compose.DatabaseServerRegistrarAndMessengerComposer, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Cache.DistributedCacheBinderComposer, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco_Tag_Manager.TagManagerComposer, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco_Tag_Manager.TagManagerComponentComposer, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 
 Umbraco.Core.PropertyEditors.IPropertyValueConverter
 
@@ -381,6 +384,9 @@ Umbraco.Web.Mvc.RenderMvcController, Umbraco.Web, Version=8.0.0.0, Culture=neutr
 
 Umbraco.Web.WebApi.UmbracoApiController
 
+Umbraco_Tag_Manager.Controllers.TagManagerApiController, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco_Tag_Manager.Controllers.TagManagerTreeController, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Cogworks.FindAndReplace.Web.API.FindAndReplaceApiController, Cogworks.FindAndReplace, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.BackOffice.ModelsBuilderDashboardController, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Trees.LogViewerTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Trees.FilesTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -454,8 +460,6 @@ Umbraco.Web.Editors.ContentTypeController, Umbraco.Web, Version=8.0.0.0, Culture
 Umbraco.Web.Editors.MediaTypeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Editors.SectionController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Editors.MediaController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco_Tag_Manager.Controllers.TagManagerApiController, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco_Tag_Manager.Controllers.TagManagerTreeController, Umbraco Tag Manager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 
 Umbraco.Web.Mvc.SurfaceController
 

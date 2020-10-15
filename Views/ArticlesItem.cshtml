@@ -13,3 +13,17 @@
 <p>
 @Model.Value("mainContent", fallback: Fallback.ToAncestors)
 </p>
+
+<!-- if(Model.Tag.Any()){
+<ul>
+   // foreach(varin tag in Model.Tag){
+    
+    var contents= Umbraco.TagQuery.GetContentByTag(tag);
+    <li> 
+    foreach(var content in contents) {
+        <a href="content.Url">content.name </a> 
+        }
+    </li>
+    }
+</ul>
+}-->

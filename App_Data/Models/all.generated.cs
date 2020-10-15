@@ -6,8 +6,8 @@ using  Umbraco.Core.Models;
 using  Umbraco.Core.Models.PublishedContent;
 using  Umbraco.Web;
 using  Umbraco.ModelsBuilder.Embedded;
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "f973ca930ec865dd")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.5")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "9939f96c027d7707")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
 
 
 // FILE: models.generated.cs
@@ -156,11 +156,11 @@ namespace Umbraco.Web.PublishedModels
 		public string MainContent => this.Value<string>("mainContent");
 
 		///<summary>
-		/// tags
+		/// Tag
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.8.0")]
-		[ImplementPropertyType("tags")]
-		public global::System.Collections.Generic.IEnumerable<string> Tags => this.Value<global::System.Collections.Generic.IEnumerable<string>>("tags");
+		[ImplementPropertyType("tag")]
+		public global::System.Collections.Generic.IEnumerable<string> Tag => this.Value<global::System.Collections.Generic.IEnumerable<string>>("tag");
 
 		///<summary>
 		/// Title
@@ -627,6 +627,13 @@ namespace Umbraco.Web.PublishedModels
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.8.0")]
 		[ImplementPropertyType("eventTitle")]
 		public string EventTitle => this.Value<string>("eventTitle");
+
+		///<summary>
+		/// Location
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.8.0")]
+		[ImplementPropertyType("location")]
+		public global::Umbraco.Core.Models.PublishedContent.IPublishedContent Location => this.Value<global::Umbraco.Core.Models.PublishedContent.IPublishedContent>("location");
 
 		///<summary>
 		/// Speakers
