@@ -1,0 +1,21 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@{
+	Layout = "master.cshtml";
+}
+
+@* the fun starts here *@
+
+<section class="section">
+<div class="container">
+    @if (!Members.GetCurrentLoginStatus().IsLoggedIn) {
+    @Html.Partial("login")
+
+}
+else {
+    <p>You are currently logged in as
+    @Members.GetCurrentLoginStatus().Name</p>
+     @Html.Partial("Logout")
+}
+
+</div>
+</section>
