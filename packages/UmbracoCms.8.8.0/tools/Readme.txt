@@ -23,6 +23,16 @@ Member
 Active naru@to.dk narutouzumaki
         kaka@shi.dk kakashihatake
 Prospect    kurama kuramaninetails
+
+Extension installed - Find and Replace - 
+You are able to replace each occursion exclusively or replace all of those using "Replace all" button.
+
+bettercms - Database
+DESKTOP-O82K4K5\SQLEXPRESS - server name
+
+DESKTOP-O82K4K5\tonda - owner
+
+
 When upgrading your website using NuGet you should answer "No" to the questions to overwrite the Web.config
 file (and config files in the config folder).
 

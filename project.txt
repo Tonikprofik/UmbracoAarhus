@@ -1,0 +1,33 @@
+                        888                                         
+                        888                                         
+888   888 88888b.d88b.  88888b.  888d888 8888b.   .d8888b  .d88b. 
+888   888 888 "888 "88b 888 "88b 888P"      "88b d88P"    d88""88b
+888   888 888  888  888 888  888 888    .d888888 888      888  888
+Y88   88Y 888  888  888 888 d88P 888    888  888 Y88b.    Y88..88P
+ "Y888P"  888  888  888 88888P"  888    "Y888888  "Y8888P  "Y88P" 
+
+------------------------------------------------------------------
+http://localhost:60637/umbraco
+admin
+tnk@tnk.dk
+tnkrootroot
+
+users
+JaneWilfred@tnk.dk
+STo|INDUAi
+
+TimHanson@tnk.dk
+UCqc%]?1w5
+
+Member 
+Active naru@to.dk narutouzumaki
+        kaka@shi.dk kakashihatake
+Prospect    kurama kuramaninetails
+
+Extension installed - Find and Replace - 
+You are able to replace each occursion exclusively or replace all of those using "Replace all" button.
+
+bettercms - Database
+DESKTOP-O82K4K5\SQLEXPRESS - server name
+
+DESKTOP-O82K4K5\tonda - owner
