@@ -1,0 +1,45 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Members>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@using Umbraco.Core;
+@using Umbraco.Core.Models;
+@using Umbraco.Core.Services;
+@{
+	Layout = "master.cshtml";
+}
+
+@{
+var memberService = Services.MemberService;
+
+var members = memberService.GetMembersByGroup("Active");
+var members2 = memberService.GetMembersByGroup("Prospect");
+}
+<h1>Active Members</h1>
+@foreach (var member in members) 
+{
+<p><h2>
+@(member.GetValue("firstname") + " "
++ member.GetValue("lastname")) </h2><br/>
+@member.GetValue("address")<br />
+@(member.GetValue("city") + ", "
++ member.GetValue("zip")) <br>
+Mobile: @member.GetValue("mobile")<br /> 
+<aside>
+    @{
+           
+            var memberImage = member.GetValue<string>("photo");
+     }
+      
+        <img src="@(memberImage != null ? memberImage : "")" />
+</aside>
+
+</p>
+}
+<br>
+<h1>Prospect Members</h1>
+@foreach (var member in members2) 
+{
+<p><h2>
+@(member.GetValue("firstname") + " "
++ member.GetValue("lastname")) </h2><br/>
+</p>
+}
