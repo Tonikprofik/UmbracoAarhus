@@ -17,6 +17,15 @@
 @Model.Value("eventDate", fallback: Fallback.ToAncestors)
 </p>
 
+<h2>Speakers </h2>
+
+  
+    
+    
+
+     
+     
+
 <p>Located at:</p>
 @{
     IPublishedContent location = Model.Value<IPublishedContent>("location");
@@ -28,7 +37,15 @@
                 </p>
           }
      }
-
+@{
+    var itemz = Model.Value<IEnumerable<IPublishedElement>>("speaker");
+     foreach (var item in itemz)
+     {
+        // Render your content, e.g. item.Value<string>("heading")
+        //item.Value<string>("firstName")item.firstName
+       <p> @item.Value<string>("firstName") </p>
+     }
+    }
 
 @{
 	var selection = Umbraco.Content(Guid.Parse("c73f09a7-8a98-442e-8175-c22713bd4fb4"))

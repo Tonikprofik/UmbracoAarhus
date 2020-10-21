@@ -15,8 +15,8 @@
 </p>
 
 <!-- if(Model.Tag.Any()){
-<ul>
-   // foreach(varin tag in Model.Tag){
+
+    foreach(var in tag in Model.Tag){
     
     var contents= Umbraco.TagQuery.GetContentByTag(tag);
     <li> 
@@ -25,5 +25,5 @@
         }
     </li>
     }
-</ul>
-}-->
+</ul> -->
+@Model.Value("tag")

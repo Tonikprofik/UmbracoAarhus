@@ -11,3 +11,19 @@
 
 
 
+@{
+	var selection = Umbraco.Content(Guid.Parse("ad0998c2-7e30-48ed-8ac6-2dc12d748eee"))
+    .ChildrenOfType("userComments")
+    .Where(x => x.IsVisible());
+}
+<ul>
+	@foreach (var item in selection)
+	{
+		<li>
+			<a href="@item.Url">@item.Name</a>
+		</li>
+	}
+</ul>
+
+
+
